@@ -1,2 +1,3 @@
 # Smart-Map-Assistant-
 A real-time, all-in-one navigation and travel app integrating Google Maps traffic and signal data, user-powered updates, chatbot assistance, flight/train tracking, personalized reminders, and accessibility for visually impaired users, with emotional intelligence and secure user data management.
+A personal Map Assistant that provides real-time traffic updates, chatbot assistance, flight/train tracking, personalized reminders, and accessibility for visually impaired users, with emotional intelligence and secure user data management.
