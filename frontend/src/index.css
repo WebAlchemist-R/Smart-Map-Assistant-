@@ -1,0 +1,20 @@
+:root{
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --accent:#1e40af;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:#111}
+.app-root{display:flex;flex-direction:column;height:100vh}
+.app-header{background:var(--accent);color:white;padding:12px 16px;font-size:1.15rem}
+.app-main{display:flex;flex:1;gap:12px;padding:12px}
+.map-container{flex:3;min-height:300px;border-radius:8px;overflow:hidden;background:#ddd}
+.chat-container{flex:1;display:flex;flex-direction:column;gap:8px}
+.chat-widget{background:var(--card);padding:8px;border-radius:8px;height:100%;display:flex;flex-direction:column}
+.messages{flex:1;overflow:auto}
+.controls{display:flex;gap:8px}
+.msg{padding:8px;border-radius:6px;margin:6px 0}
+.msg.user{background:#dcfce7;align-self:flex-end}
+.msg.bot{background:#eef2ff;align-self:flex-start}
+@media (max-width:800px){.app-main{flex-direction:column}.map-container{order:1}.chat-container{order:2}}
