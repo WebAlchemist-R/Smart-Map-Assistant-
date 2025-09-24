@@ -9,7 +9,7 @@ from . import db, models, schemas, auth
 load_dotenv()
 router = APIRouter()
 
-TRAIN_API_KEY = os.getenv("TRAIN_API_KEY")
+TRAIN_API_KEY = os.getenv("http://indianrailapi.com/api/v2/livetrainstatus/apikey/<apikey>/trainnumber/<train_number>/date/<yyyymmdd>/")
 FLIGHT_API_KEY = os.getenv("FLIGHT_API_KEY")
 
 # ----- User / data endpoints (simplified) -----
